@@ -1,0 +1,25 @@
+.calc {
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+  
+  .btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #res {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
